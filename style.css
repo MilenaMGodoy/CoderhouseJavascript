@@ -1,0 +1,160 @@
+#titulos {
+    color:rgb(186, 86, 216);
+    font-family: 'Poppins', sans-serif;
+}
+#parrafos {
+    color: lightgreen;
+}
+#amitante {
+    font-family: 'Poppins', sans-serif;
+    color:grey;
+    font-size: 550%;
+}
+ul li {color: #1f3d29;}
+ol li {color: #a8550c;}
+
+.letra {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 1.3;
+    font-weight: normal;
+    color: green;
+    text-decoration: none;
+}
+#menu :hover {
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    line-height: 1.3;
+    font-weight: normal;
+    color: rgb(186, 86, 216);
+    text-decoration: none;
+}
+#italic {
+    color: brown;
+    font-style: italic;
+    margin: 10px;
+}
+#fondo {
+    background-color: white
+}
+.fondoTitulo {
+    width: 180px;
+    height: 40px;
+    margin: 20px 10px 40px 10px;
+    padding: 20px 10px 40px 10px;
+    display: block;
+    font-size: 300%;
+}
+.lista {
+    position: sticky;
+}
+ul {
+    list-style: none;
+    font-size: 0;
+}
+li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 20px;
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul {
+    display: block;
+}
+.fondoProductos {
+    background-color: white;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    padding: 10px 5px 10px 5px;
+    border: solid 5px yellowgreen;
+    display: inline-block;
+}
+.infoEventos {
+    background-color: lightyellow;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    padding: 10px 5px 10px 5px;
+    border: solid 5px yellowgreen;
+    display: block;
+}
+.fotoHabitos {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+    border: solid 5px #a65c12;
+    display: inline-block;
+}
+.padre {
+    background-color: #cca45e;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.hijo {
+    background-color: #a65c12;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+}
+#grilla {
+    display: grid;
+    width: 100px;
+    height: 250px;
+    grid-template-areas: "reciclaje reciclaje"
+                        "papel menosresiduos"
+                        "plastico menosresiduos"
+                        "plastico menor"
+                        "materia menor";
+    grid-template-rows: 1fr 90px 45px 45px 90px;
+    grid-template-columns: 200px 1fr;
+    margin: 2px 100px 70px 5px;                    
+}
+.border {
+    border: 2px solid black;
+    background-color: #d9db69;
+}
+.tabla {
+    margin: 10px 10px 50px 10px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 80%;
+}
+#piedepagina {
+    margin: 30px 30px 30px 10px;
+    font-size: 100%;
+}
+#textoIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoIndex {
+    background-color: lightyellow;
+    width: 900px;
+    height: 180px;
+    margin: 10px;
+    padding: 15px;
+    border: solid 10px yellowgreen;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+.imagenIndex {
+    margin: 20px;
+    border: 10px;
+    padding: 20px;
+    display: inline;
+}
